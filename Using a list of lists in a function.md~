@@ -1,23 +1,13 @@
-Using strings in lists in functions
+####Using a list of lists in a function
 
-Create a function that concatenates strings.
 
-Define a function called join_strings accepts an argument called words. It will be a list.
-Inside the function, create a variable called result and set it to "", an empty string.
-Iterate through the words list and append each word to result.
-Finally, return the result.
-Don't add spaces between the joined strings!
+Create a function called flatten that takes a single list and concatenates all the sublists that are part of it into a single list.
 
-##sol
+On line 3, define a function called flatten with one argument called lists.
+Make a new, empty list called results.
+Iterate through lists. Call the looping variable numbers.
+Iterate through numbers.
+For each number, .append() it to results.
+Finally, return results
 
-n = ["Michael", "Lieberman"]
-
-# Add your function here
-def join_strings(words):
-    result=""
-    for n in range(len(words)):
-        result+=words[n]
-    return result
-
-print join_strings(n)
-
+####solution
